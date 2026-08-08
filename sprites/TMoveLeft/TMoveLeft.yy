@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"TMoveLeft",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":27,
-  "bbox_left":6,
-  "bbox_right":26,
+  "bbox_left":3,
+  "bbox_right":29,
   "bbox_top":5,
   "collisionKind":1,
   "collisionTolerance":0,

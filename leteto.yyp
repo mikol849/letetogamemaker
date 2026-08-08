@@ -34,6 +34,7 @@
   },
   "name":"leteto",
   "resources":[
+    {"id":{"name":"EvilFuckassCube","path":"objects/EvilFuckassCube/EvilFuckassCube.yy",},},
     {"id":{"name":"Leteto","path":"objects/Leteto/Leteto.yy",},},
     {"id":{"name":"Velvet","path":"objects/Velvet/Velvet.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -41,6 +42,7 @@
     {"id":{"name":"LetetoStaminaMechanics","path":"scripts/LetetoStaminaMechanics/LetetoStaminaMechanics.yy",},},
     {"id":{"name":"VelvetMovement","path":"scripts/VelvetMovement/VelvetMovement.yy",},},
     {"id":{"name":"VelvetStaminaMechanics","path":"scripts/VelvetStaminaMechanics/VelvetStaminaMechanics.yy",},},
+    {"id":{"name":"EvilFuckassSprite","path":"sprites/EvilFuckassSprite/EvilFuckassSprite.yy",},},
     {"id":{"name":"TestSprite","path":"sprites/TestSprite/TestSprite.yy",},},
     {"id":{"name":"TIdleDown","path":"sprites/TIdleDown/TIdleDown.yy",},},
     {"id":{"name":"TIdleLeft","path":"sprites/TIdleLeft/TIdleLeft.yy",},},

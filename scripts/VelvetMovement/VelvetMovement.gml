@@ -1,28 +1,26 @@
 function VelvetMovement() 
 {
 	image_speed = VelvetRunning ? 2 : 1;
-	VelvetSpeed = VelvetRunning ? 5 : 2.5;
+	VelvetSpeed = VelvetRunning ? 3 : 1.5;
+	
+    var VelvetMoveTical = 0;
 	
 	if (keyboard_check(ord("W")))
-		{
-			direction = 90;
+		{	
+			VelvetMoveTical = -1;
 			
 			sprite_index = VMoveUp;
-			
-			speed = VelvetSpeed;
 		}
 	else if (keyboard_check(ord("S")))
 		{
-			direction = 270;
+			VelvetMoveTical = 1;
 			
 			sprite_index = VMoveDown;
-			
-			speed = VelvetSpeed;
 		}
 	else
 		{
 			image_index = 0
-			
-			speed = 0
 		}
+	hspeed = 0; // gościuwa nie ma spritów do tego
+	vspeed = VelvetMoveTical * VelvetSpeed
 }

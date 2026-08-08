@@ -1,44 +1,59 @@
 function LetetoMovement()
-{
-	image_speed = LetetoRunning ? 2 : 1;
-	LetetoSpeed = LetetoRunning ? 5 : 2.5;
-	
-	if (keyboard_check(vk_left))
-		{
-			direction = 180;
-			
-			sprite_index = TMoveLeft;
-			
-			speed = LetetoSpeed;
-		}
-	else if (keyboard_check(vk_up))
-		{
-			direction = 90;
-			
-			sprite_index = TMoveUp;
-			
-			speed = LetetoSpeed;
-		}
-	else if (keyboard_check(vk_right))
-		{
-			direction = 0;
-			
-			sprite_index = TMoveRight;
-			
-			speed = LetetoSpeed;
-		}
-	else if (keyboard_check(vk_down))
-		{
-			direction = 270;
-			
-			sprite_index = TMoveDown;
-			
-			speed = LetetoSpeed;
-		}
-	else
-		{
-			speed = 0;
-			
-			image_index = 0;
-		}
-}
+    {
+        image_speed = LetetoRunning ? 2 : 1;
+        LetetoSpeed = LetetoRunning ? 4 : 2;
+
+        var LetetoMoveZontal = 0;
+        var LetetoMoveTical = 0;
+        var LetetoMoving = false;
+
+        if (keyboard_check(vk_left))
+            {
+                LetetoMoveZontal = -1;
+                if (sprite_index != TMoveLeft)
+                    {
+                        sprite_index = TMoveLeft;
+                        image_index = 0;
+                    }
+                LetetoMoving = true;
+            }
+        else if (keyboard_check(vk_right))
+            {
+                LetetoMoveZontal = 1;
+                if (sprite_index != TMoveRight)
+                    {
+                        sprite_index = TMoveRight;
+                        image_index = 0;
+                    }
+                LetetoMoving = true;
+            }
+
+        if (keyboard_check(vk_up))
+            {
+                LetetoMoveTical = -1;
+                if (sprite_index != TMoveUp)
+                    {
+                        sprite_index = TMoveUp;
+                        image_index = 0;
+                    }
+                LetetoMoving = true;
+            }
+        else if (keyboard_check(vk_down))
+            {
+                LetetoMoveTical = 1;
+                if (sprite_index != TMoveDown)
+                    {
+                        sprite_index = TMoveDown;
+                        image_index = 0;
+                    }
+                LetetoMoving = true;
+            }
+
+        if (!LetetoMoving)
+            {
+                image_index = 0;
+            }
+
+        hspeed = LetetoMoveZontal * LetetoSpeed;
+        vspeed = LetetoMoveTical * LetetoSpeed;
+    }
