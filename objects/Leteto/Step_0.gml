@@ -1,0 +1,2 @@
+LetetoMovement();
+LetetoStamina()
