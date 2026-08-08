@@ -1,2 +1,2 @@
 VelvetMovement();
-VelvetStamina()
+VelvetStaminaMechanics()

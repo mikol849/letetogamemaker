@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"LetetoStamina",
+  "%Name":"LetetoStaminaMechanics",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"LetetoStamina",
+  "name":"LetetoStaminaMechanics",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

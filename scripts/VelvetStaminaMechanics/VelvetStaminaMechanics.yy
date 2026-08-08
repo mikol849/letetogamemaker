@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"VelvetStamina",
+  "%Name":"VelvetStaminaMechanics",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"VelvetStamina",
+  "name":"VelvetStaminaMechanics",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

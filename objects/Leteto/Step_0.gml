@@ -1,2 +1,2 @@
 LetetoMovement();
-LetetoStamina()
+LetetoStaminaMechanics()

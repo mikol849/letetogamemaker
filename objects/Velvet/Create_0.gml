@@ -1,5 +1,5 @@
-stamina = 100
-maxStamina = 100
-staminaRegenRate = 2.5
-staminaDrainRate = 5
+VelvetStamina = 100
+VelvetMaxStamina = 100
+VelvetStaminaRegenRate = 0.5
+VelvetStaminaDrainRate = 1
 VelvetRunning = false
