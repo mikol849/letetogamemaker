@@ -6,8 +6,8 @@
   "name":"EvilFuckassCube",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"World",
+    "path":"folders/Objects/World.yy",
   },
   "parentObjectId":null,
   "persistent":false,

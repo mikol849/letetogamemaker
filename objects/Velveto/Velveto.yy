@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Velvet",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Velveto",
+  "eventList":[],
   "managed":true,
-  "name":"Velvet",
+  "name":"Velveto",
   "overriddenProperties":[],
   "parent":{
-    "name":"World",
-    "path":"folders/Objects/World.yy",
+    "name":"Battle",
+    "path":"folders/Objects/Battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"VIdleDown",
-    "path":"sprites/VIdleDown/VIdleDown.yy",
+    "name":"VIdleUp",
+    "path":"sprites/VIdleUp/VIdleUp.yy",
   },
   "spriteMaskId":null,
   "visible":true,
