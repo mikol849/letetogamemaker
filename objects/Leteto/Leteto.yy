@@ -35,6 +35,9 @@
     "name":"TIdleDown",
     "path":"sprites/TIdleDown/TIdleDown.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"EvilFuckassSprite",
+    "path":"sprites/EvilFuckassSprite/EvilFuckassSprite.yy",
+  },
   "visible":true,
 }
