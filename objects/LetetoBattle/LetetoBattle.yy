@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Leteteo",
+  "%Name":"LetetoBattle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Leteteo",
+  "name":"LetetoBattle",
   "overriddenProperties":[],
   "parent":{
     "name":"Battle",

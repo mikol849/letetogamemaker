@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"EvilVelvetSpawner",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EvilVelvetSpawner",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

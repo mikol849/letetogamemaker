@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"EvilFuckassCube",
-  "eventList":[],
+  "%Name":"EvilVelvet",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"EvilFuckassCube",
+  "name":"EvilVelvet",
   "overriddenProperties":[],
   "parent":{
     "name":"World",
@@ -28,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"EvilFuckassSprite",
-    "path":"sprites/EvilFuckassSprite/EvilFuckassSprite.yy",
+    "name":"EVDown",
+    "path":"sprites/EVDown/EVDown.yy",
   },
-  "spriteMaskId":{
-    "name":"EvilFuckassSprite",
-    "path":"sprites/EvilFuckassSprite/EvilFuckassSprite.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
